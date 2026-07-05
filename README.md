@@ -27,16 +27,16 @@ Each folder/file represents a book summary, including:
 ## 📁 Project Structure
 
 ```
-Python-Crash-Course/
- ├── Chapter_1/
+/Python-Crash-Course
+ ├── /Chapter_1
  │    ├── notes.md
- │    ├── exercises/
+ │    ├──/exercises
  │    │     ├── ex1.py
  │    │     ├── ex2.py
- │    │     ├── ex3.py
- ├── Chapter_2/
+ │    |
+ ├── /Chapter_2
  │    ├── notes.md
- │    ├── exercises/
+ │    ├── /exercises
  │    │     ├── ex1.py
  │    │     ├── ex2.py
 ```
