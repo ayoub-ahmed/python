@@ -1,7 +1,6 @@
 # python
 A curated collection of Python book summaries for quick learning and revision.
 
-```markdown
 # 📘 Python Book Summaries
 
 A curated collection of Python book summaries for quick learning and revision.
