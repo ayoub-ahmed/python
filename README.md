@@ -25,7 +25,9 @@ Each folder/file represents a book summary, including:
 
 ## 📁 Project Structure
 
-`
+## 📁 Project Structure
+
+```
 Python-Crash-Course/
  ├── Chapter_1/
  │    ├── notes.md
@@ -38,9 +40,7 @@ Python-Crash-Course/
  │    ├── exercises/
  │    │     ├── ex1.py
  │    │     ├── ex2.py
-
-
-
+```
 ## 🚀 How to Use
 
 1. Browse the repository
