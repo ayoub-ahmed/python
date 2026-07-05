@@ -25,19 +25,18 @@ Each folder/file represents a book summary, including:
 
 ## 🗂️ Structure
 
-/Book-Name-1
-
-  README.md     
-
-  /chapters
-
-    chapter-01.md
-
-    chapter-02.md
-
-    ...
-
-  /summary.md 
+Python-Crash-Course/
+ ├── Chapter_1/
+ │    ├── notes.md
+ │    ├── exercises/
+ │    │     ├── ex1.py
+ │    │     ├── ex2.py
+ │    │     ├── ex3.py
+ ├── Chapter_2/
+ │    ├── notes.md
+ │    ├── exercises/
+ │    │     ├── ex1.py
+ │    │     ├── ex2.py
 
 
 
