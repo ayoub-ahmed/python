@@ -25,8 +25,6 @@ Each folder/file represents a book summary, including:
 
 ## 🗂️ Structure
 
-
-
 /Book-Name-1
 
   README.md     
