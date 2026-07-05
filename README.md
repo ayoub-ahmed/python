@@ -1,6 +1,3 @@
-# python
-A curated collection of Python book summaries for quick learning and revision.
-
 # 📘 Python Book Summaries
 
 A curated collection of Python book summaries for quick learning and revision.
@@ -28,15 +25,23 @@ Each folder/file represents a book summary, including:
 
 ## 🗂️ Structure
 
-```
+
 
 /Book-Name-1
-summary.md
-/Book-Name-2
-summary.md
-README.md
 
-```
+  README.md     
+
+  /chapters
+
+    chapter-01.md
+
+    chapter-02.md
+
+    ...
+
+  /summary.md 
+
+
 
 ## 🚀 How to Use
 
