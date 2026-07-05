@@ -23,7 +23,6 @@ Each folder/file represents a book summary, including:
 - Main takeaways
 - Practical notes for revision
 
-## 📁 Project Structure
 
 ## 📁 Project Structure
 
