@@ -23,8 +23,9 @@ Each folder/file represents a book summary, including:
 - Main takeaways
 - Practical notes for revision
 
-## 🗂️ Structure
+## 📁 Project Structure
 
+`
 Python-Crash-Course/
  ├── Chapter_1/
  │    ├── notes.md
@@ -58,5 +59,4 @@ Suggestions and improvements are welcome. Feel free to open an issue or pull req
 ## 📄 License
 
 This project is for educational purposes.
-```
 
