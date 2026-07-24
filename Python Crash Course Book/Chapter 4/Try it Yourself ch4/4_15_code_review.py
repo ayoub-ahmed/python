@@ -1,39 +1,42 @@
-# Code Review:
-# This program follows PEP 8 style guidelines:
-# - Use four spaces for indentation.
-# - Keep lines under 80 characters.
-# - Avoid excessive blank lines.
+# 4-15 Code Review
+
+# Reviewed programs:
+# 4-01 Pizzas
+# 4-02 Animals
+# 4-03 Counting to Twenty
 
 
-# Example 1: Pizzas
+# 4-01 Pizzas
 
-pizzas = ['pepperoni', 'Neapolitan', 'New York']
-
-print("My favorite pizzas:")
+pizzas = [
+    "pepperoni",
+    "margherita",
+    "vegetarian",
+]
 
 for pizza in pizzas:
     print(f"I like {pizza} pizza.")
 
+print("I really love pizza!")
 
-print("\n--------------------")
+
+# 4-02 Animals
+
+animals = [
+    "dog",
+    "cat",
+    "rabbit",
+]
+
+for animal in animals:
+    print(f"A {animal} would make a great pet.")
+
+print("Any of these animals would make a great pet!")
 
 
-# Example 2: Odd Numbers
+# 4-03 Counting to Twenty
 
-print("Odd numbers:")
+numbers = list(range(1, 21))
 
-for number in range(1, 21, 2):
+for number in numbers:
     print(number)
-
-
-print("\n--------------------")
-
-
-# Example 3: Buffet
-
-foods = ('pizza', 'burger', 'pasta', 'salad', 'sushi')
-
-print("Buffet menu:")
-
-for food in foods:
-    print(food)
