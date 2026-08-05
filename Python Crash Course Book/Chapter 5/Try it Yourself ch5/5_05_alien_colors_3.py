@@ -1,3 +1,4 @@
-a = [1, 3, 5, 4, 2]
-a.sort(reverse=True)
-print(a)
+age = 2
+    if:
+        age < 2
+        print('baby')
