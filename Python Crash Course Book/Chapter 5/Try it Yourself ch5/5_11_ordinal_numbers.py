@@ -1,4 +1,4 @@
-# 5_11_ordinal_numbers.py
+# 5-11. Ordinal Numbers
 
 ranking = list(range(1, 10))
 
