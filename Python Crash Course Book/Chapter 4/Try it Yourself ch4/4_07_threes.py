@@ -1,2 +1,7 @@
-for value in range(1,10):
-	print(value**3)
+# 4-7. Threes
+# Make a list of the multiples of 3 from 3 to 30 and use a for loop to print the numbers.
+
+multiples_of_three = list(range(3, 31, 3))
+
+for number in multiples_of_three:
+    print(number)
