@@ -1,9 +1,18 @@
-# 5_08_hello_admin.py
+# 5-7. Favorite Fruit
 
-users = ["admin", "User0", "user1"]
+fruits = ["banana", "apple", "kiwi", "orange", "mango"]
 
-for user in users:
-    if user == "admin":
-        print("Hello, Admin")
-    else:
-        print(f"Welcome, {user}")
+if "banana" in fruits:
+    print("I love banana!")
+
+if "apple" in fruits:
+    print("I love apple!")
+
+if "kiwi" in fruits:
+    print("I love kiwi!")
+
+if "orange" in fruits:
+    print("I love orange!")
+
+if "mango" in fruits:
+    print("I love mango!")
