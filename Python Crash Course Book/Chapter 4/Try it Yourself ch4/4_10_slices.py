@@ -1,16 +1,13 @@
-pizzas = ['pepperoni', 'Neapolitan', 'New York']
+# 4-10. Slices
+# Choose a list from one of your previous exercises and print three slices from the list.
 
-friend_pizzas = pizzas[:]
+numbers = list(range(1, 11))
 
-pizzas.append("pineapple")
-friend_pizzas.append("tuna")
+print("The first three items in the list are:")
+print(numbers[:3])
 
-print("My favorite pizzas are:")
+print("Three items from the middle of the list are:")
+print(numbers[3:6])
 
-for pizza in pizzas:
-    print(f"I like {pizza} pizza.")
-
-print("\nMy friend's favorite pizzas are:")
-
-for pizza in friend_pizzas:
-    print(f"My friend likes {pizza} pizza.")
+print("The last three items in the list are:")
+print(numbers[-3:])
