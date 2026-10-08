@@ -1,30 +1,11 @@
-# 3-7. Shrinking Guest List
-# Remove guests until only two guests remain.
+# 3-6. More Guests
+# Add more guests to the dinner list and print a new invitation message for each guest.
 
-guests = ["Nikola Tesla","Albert Einstein","Ada Lovelace","Alan Turing","Linus Torvalds","Guido van Rossum"]
+guests = ["Albert Einstein", "Marie Curie", "Alan Turing"]
 
-print("Unfortunately, I can invite only two people for dinner.")
+guests.insert(0, "Isaac Newton")
+guests.insert(2, "Ada Lovelace")
+guests.append("Charles Darwin")
 
-# Remove guests one at a time using pop().
-removed_guest = guests.pop()
-print(f"Sorry {removed_guest}, I can't invite you to dinner.")
-
-removed_guest = guests.pop()
-print(f"Sorry {removed_guest}, I can't invite you to dinner.")
-
-removed_guest = guests.pop()
-print(f"Sorry {removed_guest}, I can't invite you to dinner.")
-
-removed_guest = guests.pop()
-print(f"Sorry {removed_guest}, I can't invite you to dinner.")
-
-# Print the two remaining guests.
-print(f"{guests[0]}, you are still invited to dinner.")
-print(f"{guests[1]}, you are still invited to dinner.")
-
-# Remove the remaining guests.
-del guests[0]
-del guests[0]
-
-# Show that the list is empty.
-print(guests)
+for guest in guests:
+    print(f"Hello {guest}, I would like to invite you to dinner.")
