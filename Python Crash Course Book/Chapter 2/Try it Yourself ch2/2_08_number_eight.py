@@ -1,6 +1,7 @@
-# 2-9. Favorite Number
-# Store your favorite number in a variable and display it in a message.
+# 2-8. Number Eight
+# Use addition, subtraction, multiplication, and division to display the number 8.
 
-favorite_number = 5
-
-print(f"My favorite number is {favorite_number}.")
+print(5 + 3)
+print(10 - 2)
+print(4 * 2)
+print(16 / 2)
