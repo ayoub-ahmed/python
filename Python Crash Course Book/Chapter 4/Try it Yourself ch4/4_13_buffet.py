@@ -1,7 +1,14 @@
-# PEP 8 is the official style guide for Python code.
-# It describes recommended rules for writing clean and readable Python programs.
-#
-# Learn more:
-# https://python.org/dev/peps/pep-0008/
+# 4-13. Buffet
+# Make a tuple containing five simple foods and use a for loop to print each food.
 
-print("You should follow PEP 8 style guidelines when writing Python code.")
+foods = ("pizza", "burger", "pasta", "salad", "rice")
+
+for food in foods:
+    print(food)
+
+foods = ("pizza", "burger", "pasta", "chicken", "soup")
+
+print("\nModified menu:")
+
+for food in foods:
+    print(food)
