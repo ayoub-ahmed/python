@@ -1,5 +1,7 @@
-animals = ['dog','cat','betta fish','hamster','rabbit']
-print (f"the first three animals in the list are {animals[:3]}")
-print (f"Three Animals from the middle of the list are: {animals[1:4]}")
-print (f"The last three items in the list are: {animals[2:]}")
+# 4-9. Cube Comprehension
+# Use a list comprehension to generate the first 10 cubes.
 
+cubes = [number ** 3 for number in range(1, 11)]
+
+for cube in cubes:
+    print(cube)
