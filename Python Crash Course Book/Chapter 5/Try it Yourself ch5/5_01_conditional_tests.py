@@ -1,46 +1,34 @@
-# 5_02_more_conditional_tests.py
+# 5-1. Conditional Tests
 
-# Equality and inequality
-car = "Toyota"
-print(car.lower() == "toyota")
+car = "subaru"
+print("Is car == 'subaru'? I predict True.")
+print(car == "subaru")
 
-car = "jeep"
-print(car.upper() != "JEEP")
-
-
-# Numerical comparisons
-temp = 22
-print(temp == 20)
-
-temp = 20
-print(temp != 20)
-
-age = 18
-print(age > 15)
-
-battery = 98
-print(battery < 100)
-
-wind = 14
-print(wind >= 15)
-
-volt = 5
-print(volt <= 4)
+print("\nIs car == 'audi'? I predict False.")
+print(car == "audi")
 
 
-# and / or
-pet = "cat"
-print(pet == "dog" or pet == "cat")
+number = 10
+print("\nIs number == 10? I predict True.")
+print(number == 10)
 
-pet = "dog"
-print(pet == "dog" and pet == "cat")
+print("\nIs number != 10? I predict False.")
+print(number != 10)
 
+print("\nIs number > 5? I predict True.")
+print(number > 5)
 
-# in
-cars = ["bmw", "audi"]
-print("bmw" in cars)
+print("\nIs number < 5? I predict False.")
+print(number < 5)
 
+print("\nIs number >= 10? I predict True.")
+print(number >= 10)
 
-# not in
-cars = ["bmw", "audi"]
-print("toyota" not in cars)
+print("\nIs number <= 5? I predict False.")
+print(number <= 5)
+
+print("\nIs car == 'Subaru'? I predict False.")
+print(car == "Subaru")
+
+print("\nIs car.lower() == 'subaru'? I predict True.")
+print(car.lower() == "subaru")
