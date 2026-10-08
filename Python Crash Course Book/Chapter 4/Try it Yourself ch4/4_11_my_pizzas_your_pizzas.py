@@ -1,16 +1,17 @@
-pizzas = ['pepperoni', 'Neapolitan', 'New York']
+# 4-11. My Pizzas, Your Pizzas
+# Make a copy of a pizza list and add a different pizza to each list.
 
-friend_pizzas = pizzas[:]
+my_pizzas = ["pepperoni", "margherita", "vegetable"]
 
-pizzas.append("pineapple")
-friend_pizzas.append("tuna")
+friend_pizzas = my_pizzas[:]
+
+my_pizzas.append("hawaiian")
+friend_pizzas.append("mushroom")
 
 print("My favorite pizzas are:")
-
-for pizza in pizzas:
-    print(f"I like {pizza} pizza.")
+for pizza in my_pizzas:
+    print(pizza)
 
 print("\nMy friend's favorite pizzas are:")
-
 for pizza in friend_pizzas:
-    print(f"My friend likes {pizza} pizza.")
+    print(pizza)
