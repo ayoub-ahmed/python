@@ -1,14 +1,7 @@
-foods = ('pizza', 'burger', 'pasta', 'salad', 'sushi')
-print("\nThe menu is:")
-for food in foods:
-    print(food)
+# 4-12. More Loops
+# Use the same list from Exercise 4-1 and print each pizza using a for loop.
 
-# Trying to modify a tuple item (this will cause an error)
-# foods[0] = 'tacos'
+pizzas = ["pepperoni", "margherita", "vegetable"]
 
-foods = ('pizza', 'tacos', 'pasta', 'rice', 'sushi')
-
-print("\nThe new menu is:")
-
-for food in foods:
-    print(food)
+for pizza in pizzas:
+    print(pizza)
