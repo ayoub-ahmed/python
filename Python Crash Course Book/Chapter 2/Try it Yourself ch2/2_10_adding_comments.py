@@ -1,4 +1,4 @@
-# 2-11. Zen of Python
-# Display "The Zen of Python" by Tim Peters.
+# 2-10. Adding Comments
+# Choose two of the programs you've written and add comments to explain what each program does.
 
-import this
+print("python") #print function
