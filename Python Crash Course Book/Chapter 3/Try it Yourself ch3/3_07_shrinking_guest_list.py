@@ -1,35 +1,30 @@
-# 3-8. Seeing the World
-# Practice working with list order and sorting methods.
+# 3-7. Shrinking Guest List
+# Remove guests until only two guests remain.
 
-places = ["Japan","Brazil","Italy","Canada","New Zealand"]
+guests = ["Nikola Tesla","Albert Einstein","Ada Lovelace","Alan Turing","Linus Torvalds","Guido van Rossum"]
 
-# Print the original list.
-print(places)
+print("Unfortunately, I can invite only two people for dinner.")
 
-# Print the list in alphabetical order without changing it.
-print(sorted(places))
+# Remove guests one at a time using pop().
+removed_guest = guests.pop()
+print(f"Sorry {removed_guest}, I can't invite you to dinner.")
 
-# Show the list is still in the original order.
-print(places)
+removed_guest = guests.pop()
+print(f"Sorry {removed_guest}, I can't invite you to dinner.")
 
-# Print the list in reverse alphabetical order without changing it.
-print(sorted(places, reverse=True))
+removed_guest = guests.pop()
+print(f"Sorry {removed_guest}, I can't invite you to dinner.")
 
-# Show the list is still in the original order.
-print(places)
+removed_guest = guests.pop()
+print(f"Sorry {removed_guest}, I can't invite you to dinner.")
 
-# Change the order permanently using reverse().
-places.reverse()
-print(places)
+# Print the two remaining guests.
+print(f"{guests[0]}, you are still invited to dinner.")
+print(f"{guests[1]}, you are still invited to dinner.")
 
-# Change the order back.
-places.reverse()
-print(places)
+# Remove the remaining guests.
+del guests[0]
+del guests[0]
 
-# Sort the list alphabetically.
-places.sort()
-print(places)
-
-# Sort the list in reverse alphabetical order.
-places.sort(reverse=True)
-print(places)
+# Show that the list is empty.
+print(guests)
