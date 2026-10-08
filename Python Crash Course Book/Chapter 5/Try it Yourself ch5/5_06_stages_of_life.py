@@ -1,18 +1,16 @@
-# 5_07_favorite_fruits.py
+# 5-6. Stages of Life
 
-fruits = ["banana", "apple", "kiwi", "orange", "mango"]
+age = 2
 
-if "banana" in fruits:
-    print("I love banana!")
-
-if "apple" in fruits:
-    print("I love apple!")
-
-if "kiwi" in fruits:
-    print("I love kiwi!")
-
-if "orange" in fruits:
-    print("I love orange!")
-
-if "mango" in fruits:
-    print("I love mango!")
+if age < 2:
+    print("baby")
+elif age < 4:
+    print("toddler")
+elif age < 13:
+    print("kid")
+elif age < 20:
+    print("teenager")
+elif age < 65:
+    print("adult")
+else:
+    print("elder")
