@@ -1,2 +1,5 @@
-for value in range (1,1000_001):
-	print(value)
+# 4-3. Counting to Twenty
+# Use a for loop to print the numbers from 1 to 20.
+
+for number in range(1, 21):
+    print(number)
