@@ -1,23 +1,11 @@
-# 3-6. More Guests
-# Add more guests to the dinner list using insert() and append().
+# 3-5. Changing Guest List
+# Replace a guest who can't attend with a new guest and print the updated invitations.
 
-guests = ["Albert Einstein","Ada Lovelace","Linus Torvalds"]
+guests = ["Albert Einstein", "Nikola Tesla", "Alan Turing"]
 
-print("I found a bigger dinner table!")
+print(f"Unfortunately, {guests[1]} can't make it to dinner.")
 
-# Add a guest to the beginning of the list.
-guests.insert(0, "Nikola Tesla")
+guests[1] = "Marie Curie"
 
-# Add a guest to the middle of the list.
-guests.insert(2, "Alan Turing")
-
-# Add a guest to the end of the list.
-guests.append("Guido van Rossum")
-
-# Print invitation messages.
-print(f"Dear {guests[0]}, I would like to invite you to dinner.")
-print(f"Dear {guests[1]}, I would like to invite you to dinner.")
-print(f"Dear {guests[2]}, I would like to invite you to dinner.")
-print(f"Dear {guests[3]}, I would like to invite you to dinner.")
-print(f"Dear {guests[4]}, I would like to invite you to dinner.")
-print(f"Dear {guests[5]}, I would like to invite you to dinner.")
+for guest in guests:
+    print(f"Hello {guest}, I would like to invite you to dinner.")
