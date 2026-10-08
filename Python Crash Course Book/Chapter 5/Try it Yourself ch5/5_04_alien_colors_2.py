@@ -1,13 +1,18 @@
-# 5_05_alien_colors_3.py
+# 5-4. Alien Colors #2
 
-# Change the value of alien_color to "green", "yellow", and "red"
-# Run the program each time to test the different results.
-
+# Version 1
 alien_color = "green"
 
 if alien_color == "green":
     print("You just earned 5 points!")
-elif alien_color == "yellow":
+else:
     print("You just earned 10 points!")
-elif alien_color == "red":
-    print("You just earned 15 points!")
+
+
+# Version 2
+alien_color = "red"
+
+if alien_color == "green":
+    print("You just earned 5 points!")
+else:
+    print("You just earned 10 points!")
