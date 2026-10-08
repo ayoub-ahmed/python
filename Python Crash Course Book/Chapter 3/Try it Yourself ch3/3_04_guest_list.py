@@ -1,14 +1,7 @@
-# 3-5. Changing Guest List
-# Replace a guest who cannot make it and send new invitations.
+# 3-4. Guest List
+# Create a list of people you would like to invite to dinner and print a message for each guest.
 
-guests = ["Albert Einstein","Tim Berners-Lee","Linus Torvalds"]
-# Inform everyone that one guest cannot make it.
-print(f"{guests[1]} cannot make it to dinner.")
+guests = ["Albert Einstein", "Nikola Tesla", "Alan Turing"]
 
-# Replace the unavailable guest.
-guests[1] = "Ada Lovelace"
-
-# Print the new invitation messages.
-print(f"Dear {guests[0]}, I would like to invite you to dinner.")
-print(f"Dear {guests[1]}, I would like to invite you to dinner.")
-print(f"Dear {guests[2]}, I would like to invite you to dinner.")
+for guest in guests:
+    print(f"Hello {guest}, I would like to invite you to dinner.")
