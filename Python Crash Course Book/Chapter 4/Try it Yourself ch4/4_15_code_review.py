@@ -1,42 +1,35 @@
-# 4-15 Code Review
-
-# Reviewed programs:
-# 4-01 Pizzas
-# 4-02 Animals
-# 4-03 Counting to Twenty
+# 4-15. Code Review
+# Review your programs from this chapter and make sure they follow PEP 8 guidelines.
+# Choose three programs and make any necessary improvements.
 
 
-# 4-01 Pizzas
+# Example 1: Pizzas
 
-pizzas = [
-    "pepperoni",
-    "margherita",
-    "vegetarian",
-]
+pizzas = ["pepperoni", "Neapolitan", "New York"]
+
+print("My favorite pizzas:")
 
 for pizza in pizzas:
     print(f"I like {pizza} pizza.")
 
-print("I really love pizza!")
+print("\n--------------------")
 
 
-# 4-02 Animals
+# Example 2: Odd Numbers
 
-animals = [
-    "dog",
-    "cat",
-    "rabbit",
-]
+print("Odd numbers:")
 
-for animal in animals:
-    print(f"A {animal} would make a great pet.")
-
-print("Any of these animals would make a great pet!")
-
-
-# 4-03 Counting to Twenty
-
-numbers = list(range(1, 21))
-
-for number in numbers:
+for number in range(1, 21, 2):
     print(number)
+
+print("\n--------------------")
+
+
+# Example 3: Buffet
+
+foods = ("pizza", "burger", "pasta", "salad", "sushi")
+
+print("Buffet menu:")
+
+for food in foods:
+    print(food)
