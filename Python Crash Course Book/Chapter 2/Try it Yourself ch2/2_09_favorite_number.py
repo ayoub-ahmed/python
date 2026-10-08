@@ -1,9 +1,6 @@
-# 2-10. Adding Comments
-# Author: Ayoub Ahmed
-# This program demonstrates how to use comments in Python.
+# 2-9. Favorite Number
+# Store your favorite number in a variable and display it in a message.
 
-# Store a simple message in a variable.
-message = "Comments make code easier to understand."
-
-# Display the message.
+favorite_number = 5
+message = f"My favorite number is {favorite_number}."
 print(message)
